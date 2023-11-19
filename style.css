@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* header */
+
+/* main header */
+
+.main-header{
+    width: 72%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+display: flex;
+flex-direction: row;
+gap: 22px;
+list-style-type: none;
+font-family:Work Sans,Arial,sans-serif;
+font-weight: 100;
+}
+
+.navbar a{
+color: #ababab;
+text-decoration: none;
+font-size: 14.2px;
+font-weight: 540;
+}
+
+.logo-docplaner{
+margin: -10px;
+}
+
+/* main */
+
+.imagea{
+    width: 40px;
+    margin-left: 646px;
+    margin-top: 49px;
+}
+
+.p1{
+    text-align: center;
+    font-family: Work Sans,Arial,sans-serif ;
+    font-weight: 300;
+    font-size: 35.2px;
+    color: #00b39b;
+   
+}
+
+.p2{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #747474;
+    font-family: Work Sans,Arial,sans-serif;
+    line-height: 1.75;
+
+}
+
+/*card box*/
+
+.section2{
+    margin: auto;
+    width: 73%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section2 .cardbox {
+    width: 32%;
+    height: 375px;
+    margin-top: 62px;
+    border-radius: 10px;
+}
+
+.section2 .cardbox .imge{
+    margin-left: 25px;
+    margin-top: 28px;
+    margin-right: 28px;
+}
+
+.section2 .cardbox .colorP{
+    color: white;
+    font-family:Work Sans,Arial,sans-serif ;
+    font-size: 23.4px;
+    margin-left: 28px;
+    margin-right: 40px;
+    margin-bottom: 80px;
+    font-weight: 300;
+}
+
+.section2 .cardbox .colorH1{
+    color: white;
+    font-family:Work Sans,Arial,sans-serif ;
+    font-size: 28.5px ;
+    margin-left: 25px;
+    margin-right: 28px;
+    font-weight: 400;
+}
+
+.section2 .cardbox .raper{
+    font-family:Work Sans,Arial,sans-serif ;
+    font-size: 18.5px;
+    background-color: transparent;
+    color: white;
+    border: 0;
+    margin-left: 28px;
+    border-bottom: 1px solid white;
+    padding: -8px;
+}
+
+.section2 .cardbox .raper option { color: black; }
+
+/* mini logos and p */
+
+.section3{
+    width: 72%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3 .P{
+    width: 31%;
+}
+
+.section3 .image{
+    width: 31%;
+}
+
+/* middle main */
+
+.section4{
+    width: 101%;
+    height: 600px;
+    margin-right: -10px;
+    margin-left: -8px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.section4 .imgandtext{
+    width: 50%;
+    height: 600px;
+
+}
+
+.section4 .imgandtext .text{
+    text-align: center;
+    margin: auto;
+    width: 65%;
+    font-family: Work Sans,Arial,sans-serif;
+
+}
+
+.section4 .imgandtext .text .colorH1{
+    font-weight: 300;
+    font-size: 35px;
+    margin-bottom: -15px;
+}
+
+.section4 .imgandtext .text .colorP{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.section4 .imgandtext .img{
+    font-size: 450px;
+    margin-left: 50px;
+    margin-top: 80px;
+
+}
+
+.section4 .cardbox{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+.section4 .cardbox .box{
+    background-color: white;
+    height: 250px;
+    width: 230px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 10px;
+
+}
+
+.section4 .cardbox .box .image{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.section4 .cardbox .box .colorH1{
+    margin: auto;
+    text-align: center;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 25.8px;
+    color: #00b39b;
+}
+
+.section4 .cardbox .box .colorP{
+    margin: auto;
+    text-align: center;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #747474;
+}
+
+/* end main*/
+
+.section5{
+    background-color: white;
+    width: 37%;
+    height: 300px;
+    margin: auto;
+}
+
+.section5 .colorH1{
+    margin: auto;
+    text-align: center;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #00b39b;
+    margin-top: 80px;
+
+}
+
+.section5 .colorP{
+    margin: auto;
+    text-align: center;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 22px;
+    color: #747474;
+    margin-top: 25px;
+}
+
+.section6{
+    background-color: white;
+    width: 73%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+
+}
+
+.section6 .boximg{
+    margin-bottom: 20px;
+}
+
+.section6 .boximg .white{
+    font-family:Roboto,Arial,sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section6 .boximg .white .colorH1{
+    font-size: 19px;
+    color: #747474;
+    font-weight: 400;
+}
+
+.section6 .boximg .white .colorbutton{
+    background-color: #3d83df;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-top: 18px;
+    font-size: 13px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+}
+
+.section7{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 52px;
+}
+
+.section7 .colorH1{
+    font-size: 30px;
+    color: #333;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+}
+
+.section7 .colorbutton{
+    background-color: #3d83df;
+    color: white;
+    padding: 12px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: 500;
+    border: none;
+}
+
+/* footer */
+
+.footer{
+    background-color: white;
+    color: #ababab;
+    text-align: center;
+    width: 73%;
+    margin: auto;
+    margin-top: 50px;
+    border: #333 ,1px;
+    font-size: 5x;
+    padding: 15px;
+}
